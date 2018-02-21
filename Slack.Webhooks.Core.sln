@@ -1,16 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C5FD8CCB-17A5-4E6F-9BBB-72EF865D0232}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6D72D9AB-4750-45AE-8C27-1C20D487341E}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Slack.Webhooks.Core", "src\Slack.Webhooks.Core\Slack.Webhooks.Core.xproj", "{4ED9AAD8-2611-49B3-9F01-1587F6F67839}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Slack.Webhooks.Core", "src\Slack.Webhooks.Core\Slack.Webhooks.Core.csproj", "{4ED9AAD8-2611-49B3-9F01-1587F6F67839}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,5 +25,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4ED9AAD8-2611-49B3-9F01-1587F6F67839} = {C5FD8CCB-17A5-4E6F-9BBB-72EF865D0232}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF03D750-7C8F-4C5B-A8AB-76BFBD658105}
 	EndGlobalSection
 EndGlobal
